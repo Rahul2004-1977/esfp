@@ -1,0 +1,403 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<windows.h>
+void bio();
+void bio()
+{
+	char n1[20],e1[20],p1[10],a1[50],q1[10];
+	printf("enter your name:\n");
+	fflush(stdin);
+	gets(n1);
+	fflush(stdin);
+	printf("enter your email:\n");
+	gets(e1);
+	fflush(stdin);
+	printf("enter your phone no:\n");
+	gets(p1);
+	fflush(stdin);
+	printf("enter your address:\n");
+    gets(a1);
+	fflush(stdin);
+	printf("enter your qualification:\n");
+	gets(q1);
+	fflush(stdin);
+	
+	printf("you are successful enrolled in the scheme");	
+}
+void first();
+void first()
+{
+	printf("\n");
+	printf("				press <1>:to know about taluka panchayat work \n\n");
+	printf("				press <2>:for konw about staff details \n\n");
+	printf("				press <3>:to register your self with panchaya\n\n");
+	printf("				press <4>:for more information about the various schemes of \n\n");
+	printf("				press <5>:to get address of you your closest taluka office\n\n");
+	printf("				press <6>:to know which village`s are under our taluka panchayat\n\n");
+}
+main()
+{
+	int i,j,k,r,o,t;
+	
+	printf("                                                       NAME: RAHUL PATEL\n"													);
+	printf("                                                       ENROLL NO: BDA 01\n"													);
+	printf("                                                       BRANCH: BDA\n"														);
+	printf("                                                       BATCH: 14 B\n"														);
+	printf("------------------------------------------------------------------------------------------------------------------------\n");
+	printf("                                                   **** TALUKA PANCHAYAT WEB SITE ****\n\n");
+    printf("------------------------------------------------------------------------------------------------------------------------\n");
+
+	
+		printf("\n");
+	printf("				press <1>:to know about taluka panchayat work \n\n");
+	printf("				press <2>:for konw about staff details \n\n");
+	printf("				press <3>:to register your self with panchaya\n\n");
+	printf("				press <4>:for more information about the various schemes of \n\n");
+	printf("				press <5>:to get address of you your closest taluka office\n\n");
+	printf("				press <6>:to know which village`s are under our taluka panchayat\n\n");
+	printf("				press <8>:to go back to main menu\n\n");
+
+
+    
+	
+	scanf("%d",&i);
+	if(1==i)
+	{
+		 printf(" Panchayat Samiti (also called Taluka Panchayats or Block Panchayats) is the intermediate level in Panchayati Raj Institutions.\n The Panchayat Samiti acts as the link between Gram Panchayat (Village) and District Panchayat (Zilla).\n These blocks do not hold elections for the Panchayat Samiti council seats.\n\n");
+	
+		printf("press <8> to go to main menu\n");
+    	scanf("%d",&t);
+    	 if(8==t)
+    {
+    	main();	
+	}
+	else if(t!=8)
+	{
+		printf("you have press the wrong key pleas restart the site");
+	}
+	}
+	else if(2==i)
+	{
+		printf("\npress <1> to know the DDO-DISTRICT DEVELOPMENT OFFICER of panchayat\n");
+		printf("press <2> to know about the TDO-TALUKA DEVELOPMENT OFFICER \n");
+		printf("press <3> to konw about the sub TDO \n");
+		printf("press <4> to know about work done by your TALUKA panchayat\n");
+		scanf("%d",&j);
+		if(1==j)
+		{
+			printf("NAME:SURESH SHAH\n");
+			printf("Work:TO MANAGE THE WORK OF TALUKA PANCHAYAT AND TO ADMINSTRATE THE PANCHAYAT \n");
+			printf("email:ddo-ban[at]gujarat[dot]gov[dot]in\n");
+			printf("phone no:02742254060\n");
+			printf("FAX:02742252063\n");
+			printf("ADDRESS:Sardar Patel Panchayat Bhavan, Palanpur , Banaskantha - 385001");
+			printf("\n");
+			printf("\n");
+		}
+		
+		else if(2==j)
+		{
+			printf("NAME:RAKHI MEHATA \n");
+			printf("worK: TO MANAGE THE NEED OF STAFF AND FINANCE OF THE TALUKA PANCHAYAT\n");
+			printf("email:tdo-suigam[at]gujarat[dot]gov[dot]in\n");
+			printf("address:Taluka Panchayat Office, Suigam, Banaskantha");
+			printf("\n");
+			printf("\n");
+					
+		}
+				
+	    else if(3==j)
+		{
+			printf("menber 1:Shri Bharatbhai Shrimali\n");
+			printf("DESIGNATION:TDO-Taluka Development Officer\n");
+			printf("EMAIL:tdo-dhanera[at]gujarat[dot]gov[dot]in\n");
+			printf("PHONE:02748222053\n");
+			printf("ADDRESS:Taluka Panchayat Office, Dhanera, Banaskantha\n");
+			printf("\n");
+			printf("\n");
+			
+			
+			
+			printf("member 2:Shri Milind Dave\n");
+			printf("DESIGNATION:TDO-Taluka Development Officer\n");
+			printf("EMAIL:tdo-dhanera[at]gujarat[dot]gov[dot]in\n");
+			printf("PHONE:02735244427\n");
+			printf("ADDRESS:Taluka Panchayat Office, Deodar, Banaskantha\n");
+			printf("\n");
+			printf("\n");
+			
+			
+			printf("member 3:Shri Ankita Oza\n");
+		    printf("DESIGNATION:TDO-Taluka Development Officer\n");
+			printf("EMAIL:tdo-dhanera[at]gujarat[dot]gov[dot]in\n");
+			printf("PHONE:02748274300\n");
+			printf("ADDRESS:Taluka Panchayat Office, Dantiwada, Banaskantha\n");
+			printf("\n");
+			printf("\n");
+			
+			
+			
+			printf("member 4:Shri Rajesh Dhangar\n");
+			printf("DESIGNATION:TDO-Taluka Development Officer\n");
+			printf("EMAIL:tdo-dhanera[at]gujarat[dot]gov[dot]in\n");
+			printf("PHONE:02748222053\n");
+			printf("ADDRESS:Taluka Panchayat Office, Dhanera, Banaskantha\n");
+			printf("\n");
+			printf("\n");
+			
+			
+			
+			printf("member 5:Shri Jigarkumar V Patel\n");	
+			printf("DESIGNATION:TDO-Taluka Development Officer\n");
+			printf("EMAIL:tdo-dhanera[at]gujarat[dot]gov[dot]in\n");
+			printf("PHONE:02742232089\n");
+			printf("ADDRESS:Taluka Panchayat Office, Amirgadh, Banaskantha\n");		
+			printf("\n");
+			printf("\n");
+		}		
+	
+		else if(4==j)
+		{
+			printf("The Taluk Panchayat shall perform the functions specified in Schedule II:");
+printf("Provided that where the State Government or Central Government provides funds for the performance of any function specified in Schedule II, the Taluk Panchayat shall perform such functions in accordance with the guidelines or norms laid down for performance of such functions.");
+
+printf("Notwithstanding anything contained in sub-section(1) or schedule I , it shall be obligatory on the part of the Taluk Panchayat, in so far as the Taluk Panchayat fund at its disposal will allow, to make reasonable provision within the area under its jurisdiction in respect of the following matters, namely :-");
+
+printf("construction and augmentation of water supply works to the level of not less than forty litres per capita per day;");
+printf("filing half yearly report regarding the activities of Grama Panchayats within the taluk regarding:-holding of Grama Sabha;");
+printf("maintenance of Water supply works;construction of individual and community latrine;");
+printf("collection and revision of taxes, rates and fees;payment of electricity charges;enrollment in schools;");
+printf("Progress of immunisation.providing adequate number of class rooms and maintaining primary school buildings in proper condition including water supply and sanitation;");
+printf("acquiring land for locating the manure pits away from dwelling houses in the villages.\n");
+printf("\n");
+printf("\n");
+			
+		}		
+				printf("press <8> to go to main menu\n");
+    	scanf("%d",&t);
+    	 if(8==t)
+    {
+    	main();	
+	}
+	else if(t!=8)
+	{
+		printf("you have press the wrong key pleas restart the site");
+	}
+	}
+	else if(4==i)
+	{
+		printf("this is a website to help people about how does taluka panchayt works\n");
+		printf("press 1 to know about taluka pachayat scheme for development of taluka\n");
+		printf("press 2 to know about taluka pachayat scheme for students \n");
+		printf("press 3 to know about taluka pachayat scheme OF SCHOLARSHIP \n");
+		printf("press 4 to know about taluka pachayat scheme for farmers \n");
+		printf("press 5 to know about taluka pachayat upcomming scheme \n");
+		scanf("%d",&k);
+		if(1==k)
+		{
+			printf("Panchayats have been mandated for the preparation of Panchayat Development Plan (PDP) for economic development and social justice utilizing the resources available to them. The PDP planning process has to be comprehensive and based on participatory process which involves the full convergence with Schemes of all related Central Ministries / Line Departments related to 29 subjects enlisted in the Eleventh Schedule of the Constitution.");
+		}
+		    else if(2==k)
+		{
+			printf("\n");
+			printf("Public user can apply for these services online. All these application are available on common service portal i.e. Digital Gujarat portal. For more information and application please visit to Digital Gujarat portal. For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.");
+		    printf("Higher Education Scheme");
+		    printf("Fellowship Scheme");
+		    printf("Research Scholarship");
+		    printf("Scholarship For The Student Of Govt Colleges");
+		    printf("EBC FEES EXEMPTION SCHEME");
+		    printf("Jan Seva Kendra Near Jorawar Complex, Palanpur, Banaskantha Location : Banaskantha  City : Palanpur  PIN Code : 385001 Phone : 18002335500\n");
+		    printf("\n");
+		}
+		    else if(3==k)
+		{
+			printf("\n");
+			printf("SCHOLARSHIP\n");
+			printf("Public user can apply for these services online. All these application are available on comman service portal i.e. Digital Gujarat portal. For more information and application please visit to Digital gujarat portal.For any query regarding the online application you can contact to Digital Gujarat Help Desk on 18002335500.\n");
+			printf("BCK-78 Post S.S.C. Scholarship For Girls (SEBC)\n");
+			printf("BCK-137 Post S.S.C. Scholarship For Girls (NTDNT)\n");
+			printf("BCK-81 Post S.S.C. Scholarship For Boys (SEBC)\n");
+			printf("BCK-138 Post S.S.C. Scholarship For Boys (NTDL)\n");
+			printf("\n");
+		}
+		    else if(4==k)
+		{
+			printf("\n");
+			printf("Sardar Patel Awas Yojana");
+			printf("Sardar Patel Awas Yojana for land-less agricultural labourers and village artisans living Below Poverty Line in rural areas of the State...\n");
+			printf("eGram Yojana at a glance\n");
+			printf("The only state in India which has the infrastructure to provide E-services through computers to 13685 Gram Panchayats.\n");
+			printf("Samras Gram Yojana\n");
+			printf("The only state in India which has the infrastructure to provide E-services through computers to 13685 Gram Panchayats.\n");
+			printf("\n");
+		}
+		    else if(5==k)
+		{
+			printf("\n");
+			printf("Panchvati Yojana\n");
+			printf("Rural life of village people of the State is varied and women with folk-culture atmosphere but skirt areas of the villages had tremendous...\n");
+			printf("Tirth-Gram Yojana\n");
+			printf("The Tirth Gram Yojana has been formulated to strengthen the goodwill amongst the people living in the rural areas of the state...\n");
+			printf("Swachcha Gram Swasth Gram Yojana\n");
+			printf("A new scheme has been introduced in 2007-08 to ensure that village is properly cleaned, there may arise good spirit on cleanliness...\n");
+			printf("to know more visit:https://panchayat.gujarat.gov.in/en/all-schemes\n");
+			printf("\n");
+		}
+				printf("press <8> to go to main menu\n");
+    	scanf("%d",&t);
+    	 if(8==t)
+    {
+    	main();	
+	}
+	else if(t!=8)
+	{
+		printf("you have press the wrong key pleas restart the site");
+	}
+	}
+	else if(3==i)
+	{
+		printf("press <1> for registration form\n");
+		printf("press <2> for enrolling your self in scheme of farmer\n");
+		printf("press <3> for enrolling your self in scheme of students\n");
+		printf("press <4> for enrolling your self in scheme of girls/boys\n");
+		scanf("%d",&r);
+		if(1==r)
+		{		
+		  bio();
+		  printf("\n");
+		}
+		else if(2==r)
+		{
+		  bio();
+		  printf("\n");
+		}
+		else if(3==r)
+		{
+		  bio();
+		  printf("\n");
+		}
+		else if(4==r)
+		{
+		  bio();
+		  printf("\n\n");
+		}		
+		printf("press <8> to go to main menu\n");
+    	scanf("%d",&t);
+    	 if(8==t)
+    {
+    	main();	
+	}
+	else if(t!=8)
+	{
+		printf("you have press the wrong key pleas restart the site");
+	}
+	}
+	else if(5==i)
+	{
+		
+		printf("press <1> Jorapura Bhakhar.\n" );
+		printf("press <2> Ranawas.\n" );
+		printf("press <3> Rampura.\n" );
+		printf("press <4> Bhatamal Nani.\n" );
+		printf("press <5>  Akedi.\n" );
+		scanf("%d",&o);
+		if(1==o)
+		{
+			printf("BRANCH ADDRESS:88GF+JJH, Dantiwada, Gujarat 385505");
+			printf("\n");
+			printf("\n");	
+		}
+		else if(2==o)
+		{		
+			printf("BRANCH ADDRESS:Joravar Palace, Ambika Society, Palanpur, Gujarat 385001");	
+			printf("\n");
+			printf("\n");
+		}
+		else if(3==o)
+		{		
+			printf("BRANCH ADDRESS:85MQ+PMR, Detroj, Gujarat 382120");	
+			printf("\n");
+			printf("\n");
+		}
+		else if(4==o)
+		{			
+			printf("BRANCH ADDRESS:755M+999, Deesa, Gujarat");	
+			printf("\n");
+			printf("\n");
+		}
+		else
+		{		
+			printf("BRANCH ADDRESS:2HFJ+M25, Bhadar Laldarwaja, Old City, Bhadra, Ahmedabad, Gujarat 380001");	
+			printf("\n");
+			printf("\n");
+		}
+		
+			printf("press <8> to go to main menu\n");
+    	scanf("%d",&t);
+    	 if(8==t)
+    {
+    	main();	
+	}
+	else if(t!=8)
+	{
+		printf("you have press the wrong key pleas restart the site");
+	}
+	
+}
+    else if(6==i)
+    {
+    	int t;
+    	printf("DISTRICT NAME:	Akedi\n");
+    	printf("DIVISION:Palanpur\n");
+    	printf("POPULATION:1,014\n\n");
+    	
+    	printf("DISTRICT NAME:	Badarpura\n");
+    	printf("DIVISION:Palanpur\n");
+    	printf("POPULATION:2,989\n\n");
+    	
+    	printf("DISTRICT NAME:	Bhatamal Moti\n");
+    	printf("DIVISION:Palanpur\n");
+    	printf("POPULATION:2,926\n\n");
+    	
+    	printf("DISTRICT NAME:Chadotar\n");
+    	printf("DIVISION:\n");
+    	printf("POPULATION:6,812\n\n");
+    	
+    	printf("DISTRICT NAME:\n");
+    	printf("DIVISION:Palanpur\n");
+    	printf("POPULATION:9,972\n\n");
+    	
+    	printf("DISTRICT NAME:Chandisar\n");
+    	printf("DIVISION:Palanpur\n");
+    	printf("POPULATION:3,422\n\n");
+    	
+    	printf("DISTRICT NAME:	Dalwada\n");
+    	printf("DIVISION:Palanpur\n");
+    	printf("POPULATION:1,730\n\n");
+    	
+    	printf("DISTRICT NAME:	Malan\n");
+    	printf("DIVISION:Palanpur\n");
+    	printf("POPULATION:9,641\n\n");
+    	
+    	printf("TO KNOW MORE ABOUT OUR DISTRICT VIST US\n\n");
+    
+    	printf("press <8> to go to main menu\n");
+    	scanf("%d",&t);
+    	 if(8==t)
+    {
+    	main();	
+	}
+	else if(t!=8)
+	{
+		printf("you have press the wrong key pleas restart the site");
+	}
+   	
+	}
+    else if(8==i)
+    {
+    	main();	
+	}
+
+}
+
